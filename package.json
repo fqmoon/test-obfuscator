@@ -1,0 +1,16 @@
+{
+  "name": "test-obfuscate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/javascript-obfuscator/bin/javascript-obfuscator src --output dist --config obfuscate.config.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "javascript-obfuscator": "^2.3.1"
+  },
+  "type": "commonjs"
+}
